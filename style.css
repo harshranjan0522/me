@@ -74,6 +74,12 @@ h2::after {
     padding: 0 20px;
 }
 
+.hero img{
+    width: 90%;
+    align-self: center;
+    padding-bottom: 20px;
+}
+
 .animated-text {
     animation: fadeInUp 1s ease-out;
 }
@@ -542,12 +548,14 @@ footer {
     section {
         padding: 60px 15px;
     }
-
+    
     .service-grid,
     .pricing-grid {
         grid-template-columns: 1fr;
     }
-
+    .hero img{
+        width: 90%;
+    }
     .portfolio-grid {
         grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     }
