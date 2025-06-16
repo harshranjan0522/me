@@ -49,7 +49,7 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 
     // Replace with your email
-    const yourEmail = "harshranjan7117@gmail.com";
+    const yourEmail = "ezzyfind@gmail.com";
 
     // For the Get Started buttons
     document.querySelectorAll('.pricing-card .cta-button').forEach(button => {
