@@ -75,7 +75,7 @@ h2::after {
 }
 
 .hero img{
-    width: 90%;
+    width: 70%;
     align-self: center;
     padding-bottom: 20px;
 }
@@ -554,7 +554,7 @@ footer {
         grid-template-columns: 1fr;
     }
     .hero img{
-        width: 90%;
+        width: 70%;
     }
     .portfolio-grid {
         grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
@@ -571,7 +571,9 @@ footer {
         flex-direction: column;
         align-items: center;
     }
-
+    .hero img{
+        width: 70%;
+    }
     .tab-button,
     .filter-btn {
         width: 100%;
